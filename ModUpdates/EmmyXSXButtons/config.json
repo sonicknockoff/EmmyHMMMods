@@ -1,0 +1,41 @@
+{
+	"Groups":[
+		{
+			"Name":"Main",
+			"DisplayName":"Settings",
+			"Elements":
+			[
+				{
+					"Name":"IncludeDir1",
+					"DisplayName":"High Resolution Loading Screens & Hints",
+					"Description":[
+						"Specifies whether to use the high resolution, upscaled loading screens & hints in the game."
+					],
+					"Type":"LoadingHints",
+					"MinValue":null,
+					"MaxValue":null,
+					"DefaultValue":".\\LoadingHints\\HiRes"
+				}
+			]
+		}
+	],
+	"Enums":{
+		"LoadingHints":[
+			{
+				"DisplayName":"On",
+				"Value":".\\LoadingHints\\HiRes",
+				"Description":[
+					"Uses the high resolution loading screens & hints."
+				]
+			},
+			{
+				"DisplayName":"Off",
+				"Value":".\\LoadingHints\\Orig",
+				"Description":[
+					"Uses the original resolution loading screens & hints."
+				]
+			}
+		]
+	},
+	"IniFile":"mod.ini"
+}
