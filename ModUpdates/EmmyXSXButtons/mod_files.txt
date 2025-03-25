@@ -12,6 +12,8 @@ add Main/+EvilActionCommon.ar.00
 add Main/+EvilActionCommon.arl
 add Main/+SonicActionCommonGeneral.ar.00
 add Main/+SonicActionCommonGeneral.arl
+add Main/+SonicActionCommon_EggmanLand.ar.00
+add Main/+SonicActionCommon_EggmanLand.arl
 add LoadingController/Dark/+Loading.arl
 add LoadingController/Dark/+Loading.ar.00
 add LoadingController/Light/+Loading.ar.00

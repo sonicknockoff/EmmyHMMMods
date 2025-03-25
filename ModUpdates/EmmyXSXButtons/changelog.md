@@ -1,3 +1,5 @@
+## Emmy's XBOX Series X Buttons - v1.3.1
+- Fixed error with Eggmanland jump panel and jump selector textures not showing. (Thanks, [AshenYT](https://gamebanana.com/members/4198032)!)
 ## Emmy's XBOX Series X Buttons - v1.3
 > Time for a new & more detailed changelog!
 ### Buttons
