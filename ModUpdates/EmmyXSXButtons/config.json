@@ -14,7 +14,18 @@
 					"Type":"LoadingHints",
 					"MinValue":null,
 					"MaxValue":null,
-					"DefaultValue":".\\LoadingHints\\HiRes"
+					"DefaultValue":"./LoadingHints/HiRes"
+				},
+				{
+					"Name":"IncludeDir2",
+					"DisplayName":"Loading Screen Controller Style",
+					"Description":[
+						"Specifies what controller style to use on the loading screens."
+					],
+					"Type":"LoadingController",
+					"MinValue":null,
+					"MaxValue":null,
+					"DefaultValue":"./LoadingController/Light"
 				}
 			]
 		}
@@ -23,16 +34,32 @@
 		"LoadingHints":[
 			{
 				"DisplayName":"On",
-				"Value":".\\LoadingHints\\HiRes",
+				"Value":"./LoadingHints/HiRes",
 				"Description":[
 					"Uses the high resolution loading screens & hints."
 				]
 			},
 			{
 				"DisplayName":"Off",
-				"Value":".\\LoadingHints\\Orig",
+				"Value":"./LoadingHints/Orig",
 				"Description":[
 					"Uses the original resolution loading screens & hints."
+				]
+			}
+		],
+		"LoadingController":[
+			{
+				"DisplayName":"Light",
+				"Value":"./LoadingController/Light",
+				"Description":[
+					"Uses a light-coloured controller on loading screens, matching the game's original Vanilla style."
+				]
+			},
+			{
+				"DisplayName":"Dark",
+				"Value":"./LoadingController/Dark",
+				"Description":[
+					"Uses a dark-coloured controller on loading screens, matching the aesthetic of the default XBOX controller."
 				]
 			}
 		]
