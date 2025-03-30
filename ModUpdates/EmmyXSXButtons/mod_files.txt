@@ -1,3 +1,5 @@
+delete Config.json
+delete Mod.ini
 add mod.ini
 add config.json
 add Main/+SystemCommonCore.ar.00

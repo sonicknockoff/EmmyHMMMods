@@ -1,3 +1,6 @@
+## Emmy's XBOX Series X Buttons - v1.3.2
+- Fixed issue with PS3-style day/night loading transition emblem moving horizontally side-to-side (Thanks once again to [AshenYT](https://gamebanana.com/members/4198032)! I would not have figured this one out without their help!)
+- Fixed issues with case-sensitive filenames on Linux not being fully respected. (case-sensitivity will be the death of me, Windows makes one go soft!)
 ## Emmy's XBOX Series X Buttons - v1.3.1
 - Fixed error with Eggmanland jump panel and jump selector textures not showing. (Thanks, [AshenYT](https://gamebanana.com/members/4198032)!)
 ## Emmy's XBOX Series X Buttons - v1.3
