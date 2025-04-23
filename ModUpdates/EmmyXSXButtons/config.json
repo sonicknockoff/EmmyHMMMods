@@ -7,17 +7,6 @@
 			[
 				{
 					"Name":"IncludeDir1",
-					"DisplayName":"High Resolution Loading Screens & Hints",
-					"Description":[
-						"Specifies whether to use the high resolution, upscaled loading screens & hints in the game."
-					],
-					"Type":"LoadingHints",
-					"MinValue":null,
-					"MaxValue":null,
-					"DefaultValue":"./LoadingHints/HiRes"
-				},
-				{
-					"Name":"IncludeDir2",
 					"DisplayName":"Loading Screen Controller Style",
 					"Description":[
 						"Specifies what controller style to use on the loading screens."
@@ -25,28 +14,23 @@
 					"Type":"LoadingController",
 					"MinValue":null,
 					"MaxValue":null,
-					"DefaultValue":"./LoadingController/Dark"
+					"DefaultValue":"./LoadingController/Light"
+				},
+				{
+					"Name":"IncludeDir2",
+					"DisplayName":"A Button on Homing Attack",
+					"Description":[
+						"Toggles whether the in-game instructions show the A Button as the Homing Attack button."
+					],
+					"Type":"AHoming",
+					"MinValue":null,
+					"MaxValue":null,
+					"DefaultValue":"./AHoming/No"
 				}
 			]
 		}
 	],
 	"Enums":{
-		"LoadingHints":[
-			{
-				"DisplayName":"On",
-				"Value":"./LoadingHints/HiRes",
-				"Description":[
-					"Uses the high resolution loading screens & hints."
-				]
-			},
-			{
-				"DisplayName":"Off",
-				"Value":"./LoadingHints/Orig",
-				"Description":[
-					"Uses the original resolution loading screens & hints."
-				]
-			}
-		],
 		"LoadingController":[
 			{
 				"DisplayName":"Light",
@@ -60,6 +44,22 @@
 				"Value":"./LoadingController/Dark",
 				"Description":[
 					"Uses a dark-coloured controller on loading screens, matching the aesthetic of the default XBOX controller."
+				]
+			}
+		],
+		"AHoming":[
+			{
+				"DisplayName":"Yes",
+				"Value":"./AHoming/Yes",
+				"Description":[
+					"Enables the A Button on Homing Attack prompts."
+				]
+			},
+			{
+				"DisplayName":"No",
+				"Value":"./AHoming/No",
+				"Description":[
+					"Disables the A Button on Homing Attack prompts, the default behaviour of the game."
 				]
 			}
 		]

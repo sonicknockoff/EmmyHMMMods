@@ -1,3 +1,9 @@
+## Emmy's XBOX Series X Buttons - V1.4
+- Completely overhauled upscaled Loading Screen and In-Game Hint assets.
+- Adjustments to all in-game glyphs, including improved text glyphs and brand-new bumper designs.
+- Added option for A Button on Homing Attack.
+- Adjusted colours of text on Loading Screen guides.
+- Removed option for original resolution loading screen assets.
 ## Emmy's XBOX Series X Buttons - v1.3.2
 - Fixed issue with PS3-style day/night loading transition emblem moving horizontally side-to-side (Thanks once again to [AshenYT](https://gamebanana.com/members/4198032)! I would not have figured this one out without their help!)
 - Fixed issues with case-sensitive filenames on Linux not being fully respected. (case-sensitivity will be the death of me, Windows makes one go soft!)
